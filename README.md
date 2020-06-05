@@ -1,1 +1,3 @@
 # Master-And-Slave-HCO5-LED
+In this project, two HCO5 communicate with eachother. One of the HCO5 is in master command mode and the other is in slave AT command mode.
+Both of these HCO5 are connected to seperate arduino, although they do not have to be. The master HCO5 is connected to and gets data from a potentiometer. The value from a potentiometer is then mapped from 1-255 and sent to the slave HCO5. The slave HCO5 takes in this data and displays the value to a connected LED. The brightness of the LED will depend on this value. For more details, feel free to look in the comment of the code.
